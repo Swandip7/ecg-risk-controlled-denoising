@@ -1,0 +1,7 @@
+component,params_M,MFLOPs,cpu1_b1_ms,gpu_b1_ms
+AF denoiser FCN-DAE (2500),0.28,193.21,4.59,1.14
+AF classifier CNN1D (2500),0.09,56.83,1.31,0.72
+beat denoiser FCN-DAE (500),0.28,38.88,1.61,1.14
+beat classifier BeatNet (500+RR),0.09,11.33,0.64,0.8
+"twin U-Net, 1 pass (2500)",2.69,3915.4,53.53,6.1
+"twin sampler, 100 DDIM steps (offline)",2.69,391540.43,5352.86,609.86
