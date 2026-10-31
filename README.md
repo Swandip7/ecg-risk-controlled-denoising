@@ -121,18 +121,6 @@ Numbers were produced with Python 3.13 on Kaggle. The first notebook cell prints
 - The heartbeat gate does not hold at record level (22 records). See the paper.
 - No clinical validity is claimed. This is a research prototype.
 
-## Citation
-
-```bibtex
-@article{<key>,
-  title   = {Risk-Controlled ECG Denoising for Downstream Decision Preservation},
-  author  = {<authors>},
-  journal = {<journal>},
-  year    = {<year>},
-  doi     = {<paper DOI>}
-}
-```
-If you use the archived pool or weights, please also cite the Zenodo archive.
 
 ## License
 
