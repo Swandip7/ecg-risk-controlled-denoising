@@ -1,0 +1,20 @@
+# Pinned to the versions printed by the first cell of the notebook
+# (see README §Environment). If you must upgrade, re-run the deterministic
+# cells (§9 realism, §10 efficiency, classifier evaluation) and confirm the
+# reference numbers in results/FINAL_E4_*, FINAL_E5_*, FINAL_E8_* are unchanged.
+#
+# Python 3.13 (Kaggle) was used for the paper run.
+
+torch==2.5.1
+numpy==2.1.3
+scipy==1.14.1
+scikit-learn==1.5.2
+pandas==2.2.3
+matplotlib==3.9.2
+wfdb==4.2.0
+tqdm==4.67.0
+
+# If your PyPI default is CPU-only torch and you have a GPU, uncomment one of
+# the following to pull CUDA wheels (adjust the cuXYZ tag for your driver):
+# --extra-index-url https://download.pytorch.org/whl/cu121
+# --extra-index-url https://download.pytorch.org/whl/cu124
