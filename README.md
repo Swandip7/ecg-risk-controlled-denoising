@@ -28,17 +28,20 @@ Set these before running:
 ```bash
 export ECG_DATA_ROOT=/path/to/datasets   # folder that contains the three datasets
 export ECG_WORK=/path/to/workdir         # where data/, models/, results/ are written
-```
+
 The three dataset folder names are set at the top of the notebook (setup cell).
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/<user>/<repo>.git && cd <repo>
+git clone https://github.com/Swandip7/ecg-risk-controlled-denoising.git && cd ecg-risk-controlled-denoising
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-# optional, to reproduce the paper numbers exactly (see "Frozen artifacts"):
-#   download the Zenodo archive and unpack it into $ECG_WORK
+
+# IMPORTANT: The checkpoints are stored in the `weights/` directory in this repository.
+# The notebook expects them in `$ECG_WORK/models/`. Rename or copy the folder:
+mv weights models
+
 jupyter notebook notebooks/ecg_risk_controlled_denoising.ipynb
 ```
 
